@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encerta el Número</title>
+    <link rel="stylesheet" href="joc.css">
+</head>
+<body>
+    <h1>Encerta el Número!</h2>
+    <h2 id="pista">Comencem la partida...</h2>
+   <!-- donde se mostrarán pistas durante el juego -->
+    <div id="result">Número secret: <span id="number">?</span></div>
+    <div>
+        Jugades: <span id="attempts">20</span> | Total punts: <span id="bestScore">20</span>
+        <!--intentos restantes y el mejor puntaje-->
+    </div>
+    <input type="number" id="userInput" placeholder="Introdueix un número" min="1" max="10">
+    <button id="guess">Prova!</button>
+    
+    <button id="restart">Reinicia!</button>
+    <!-- Botón para reiniciar el juego -->
+
+    <script src="joc.js"></script>
+</body>
+</html>

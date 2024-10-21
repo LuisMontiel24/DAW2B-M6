@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333; 
+}
+
+#result {
+    font-size: 24px;
+    margin: 20px; 
+}
+
+#pista {
+    font-size: 18px; 
+    margin: 20px; 
+    color: #555; 
+}
+
+input[type="number"] {
+    width: 100px; 
+    padding: 10px;
+    font-size: 16px; 
+    margin: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+}
+
+input[type="number"]:focus {
+    border-color: #007BFF; /* Cambia el color del borde a azul cuando el campo está enfocado */
+}
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px;
+    margin: 5px;
+    background-color: #28a745; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #218838; 
+}
+
+button:disabled {
+    background-color: #6c757d; /* Color gris cuando el botón está deshabilitado */
+    cursor: not-allowed; /* El cursor cambia para indicar que no se puede hacer clic en el botón deshabilitado */
+}
+
+#restart {
+    display: none; 
+}
